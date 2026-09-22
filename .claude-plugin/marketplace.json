@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "agentfeeder",
+  "owner": {
+    "name": "Slash Gordon",
+    "url": "https://github.com/SlashGordon"
+  },
+  "description": "Install agentfeeder as a Claude plugin.",
+  "plugins": [
+    {
+      "name": "agentfeeder",
+      "source": "./",
+      "description": "Convert HTML pages to clean Markdown from the command line — a self-contained CLI and Claude Code skill for AI agents reading docs.",
+      "license": "MIT",
+      "keywords": [
+        "html-to-markdown",
+        "markdown",
+        "cli",
+        "webassembly",
+        "rust",
+        "claude-code",
+        "ai-agents",
+        "developer-tools"
+      ]
+    }
+  ]
+}
